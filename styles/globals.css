@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Poppins:wght@300&family=Work+Sans&display=swap");
+* {
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+:root {
+  --color-primary: #0f52ba;
+  --color-second: #ffffff;
+  --gray: #373737;
+  --black: #000000;
+
+  --font-title: 16px;
+  --radius: 8px;
+}
+
+@keyframes animationModal {
+  0% {
+    opacity: 0;
+    transform: rotateY(70deg);
+    transform-origin: right;
+  }
+
+  100% {
+    opacity: 1;
+    transform: rotateY(0);
+    transform-origin: right;
+  }
+}
